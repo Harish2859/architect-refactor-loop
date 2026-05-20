@@ -1,0 +1,6 @@
+langgraph
+langchain-groq
+langchain-core
+pytest
+pytest-json-report
+python-dotenv
