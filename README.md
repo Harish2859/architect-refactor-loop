@@ -14,12 +14,12 @@ A production-grade, multi-agent pipeline that autonomously analyzes a Python cod
                            │
 ┌──────────────────────────▼──────────────────────────────────┐
 │                Untrusted Generation Engine                  │
-│          Groq  /  Llama-3.3-70b-versatile  (LLM)           │
+│          Groq  /  Llama-3.3-70b-versatile  (LLM)            │
 └──────────────────────────┬──────────────────────────────────┘
                            │
 ┌──────────────────────────▼──────────────────────────────────┐
 │                  Isolated Runtime Sandbox                   │
-│     Docker  ·  --network none  ·  256m  ·  :ro mount       │
+│     Docker  ·  --network none  ·  256m  ·  :ro mount        │
 └─────────────────────────────────────────────────────────────┘
 ```
 
