@@ -9,7 +9,7 @@ A production-grade, multi-agent pipeline that autonomously analyzes a Python cod
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                   Deterministic Controller                  │
-│           LangGraph State Machine  +  AST Parser           │
+│           LangGraph State Machine  +  AST Parser            │
 └──────────────────────────┬──────────────────────────────────┘
                            │
 ┌──────────────────────────▼──────────────────────────────────┐
